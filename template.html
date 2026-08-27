@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<!-- Gegenereerd door build.py — bewerk copy.md, niet dit bestand. -->
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{meta.title}}</title>
+<meta name="description" content="{{meta.description}}">
+<link rel="canonical" href="{{site.canonical}}">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="nl_BE">
+<meta property="og:site_name" content="Rooselaer Car Styling">
+<meta property="og:title" content="{{meta.ogtitle}}">
+<meta property="og:description" content="{{meta.ogdescription}}">
+<meta property="og:image" content="https://rslr.be/wp-content/uploads/2025/08/paint-protection-film-scaled.webp">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="https://rslr.be/wp-content/uploads/2025/04/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600&family=Instrument+Serif:ital@1&display=swap" rel="stylesheet">
+
+<!-- Google Tag Manager -->
+<script>
+window.dataLayer = window.dataLayer || [];
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});
+var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';
+j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','{{gtm.id}}');
+</script>
+<!-- End Google Tag Manager -->
+<style>
+
+:root{
+  --ink:#08080A; --ink-2:#0D0D10; --ink-3:#131317;
+  --bone:#F2EEE7; --dim:#A9A49C; --faint:#6E6A65;
+  --champ:#C8BCA6;
+  --line:rgba(242,238,231,.09); --line-2:rgba(242,238,231,.055);
+  --glass:rgba(242,238,231,.035);
+  --ease:cubic-bezier(.32,.72,0,1);
+  --pad:clamp(20px,5vw,40px); --max:1200px;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{
+  margin:0;background:var(--ink);color:var(--bone);
+  font-family:'Manrope',system-ui,sans-serif;font-weight:300;font-size:16px;
+  line-height:1.62;letter-spacing:.005em;-webkit-font-smoothing:antialiased;overflow-x:hidden;
+}
+body::after{
+  content:"";position:fixed;inset:0;z-index:90;pointer-events:none;opacity:.032;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+.glow{position:fixed;inset:0;z-index:0;pointer-events:none;overflow:hidden}
+.glow i{position:absolute;border-radius:50%;filter:blur(120px);opacity:.5;display:block}
+.glow i:nth-child(1){width:52vw;height:52vw;top:-18vw;right:-12vw;background:radial-gradient(circle,rgba(200,188,166,.10),transparent 68%)}
+.glow i:nth-child(2){width:42vw;height:42vw;bottom:-16vw;left:-14vw;background:radial-gradient(circle,rgba(120,140,170,.08),transparent 68%)}
+
+.wrap{width:100%;max-width:var(--max);margin:0 auto;padding-inline:var(--pad);position:relative;z-index:1}
+section{padding-block:clamp(76px,10vh,132px);position:relative;z-index:1}
+
+h1,h2,h3{font-weight:300;margin:0;letter-spacing:-.022em;line-height:1.05}
+.display{font-size:clamp(2.4rem,6vw,4.9rem);text-transform:uppercase;letter-spacing:-.03em;line-height:.97;font-weight:250}
+.h2{font-size:clamp(1.8rem,3.6vw,2.9rem);text-transform:uppercase;letter-spacing:-.026em;line-height:1.02;font-weight:250}
+.h3{font-size:1.08rem;font-weight:400;letter-spacing:-.01em;line-height:1.25}
+.serif{font-family:'Instrument Serif',Georgia,serif;font-style:italic;text-transform:none;letter-spacing:-.01em;font-weight:400}
+p{margin:0}
+.lead{font-size:clamp(1rem,1.3vw,1.14rem);color:var(--dim);max-width:56ch;line-height:1.68}
+.small{font-size:.875rem;color:var(--dim);line-height:1.6}
+.tiny{font-size:.75rem;color:var(--faint);line-height:1.58}
+a{color:inherit}
+.eyebrow{
+  display:inline-flex;align-items:center;gap:9px;border:1px solid var(--line);background:var(--glass);
+  border-radius:999px;padding:6px 14px;font-size:10px;font-weight:500;text-transform:uppercase;
+  letter-spacing:.2em;color:var(--dim);backdrop-filter:blur(8px)
+}
+.eyebrow b{color:var(--champ);font-weight:500}
+.idx{font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:var(--faint);font-weight:500}
+
+.shell{padding:6px;border-radius:30px;background:var(--glass);border:1px solid var(--line-2)}
+.core{
+  border-radius:22px;background:linear-gradient(170deg,var(--ink-3),var(--ink-2) 62%);
+  border:1px solid var(--line-2);box-shadow:inset 0 1px 0 rgba(242,238,231,.055);
+  overflow:hidden;height:100%
+}
+
+.btn{
+  --bg:var(--bone);--fg:#0A0A0C;
+  display:inline-flex;align-items:center;gap:14px;background:var(--bg);color:var(--fg);
+  border:0;border-radius:999px;padding:9px 9px 9px 26px;font-family:inherit;font-size:.9rem;
+  font-weight:500;text-decoration:none;cursor:pointer;
+  transition:transform .5s var(--ease),box-shadow .5s var(--ease),background-color .5s var(--ease);
+  will-change:transform
+}
+.btn .ico{width:34px;height:34px;flex:0 0 34px;border-radius:999px;background:rgba(10,10,12,.09);
+  display:grid;place-items:center;transition:transform .5s var(--ease),background-color .5s var(--ease)}
+.btn .ico svg{width:13px;height:13px}
+.btn:hover{box-shadow:0 18px 50px -22px rgba(242,238,231,.32)}
+.btn:hover .ico{transform:translate(3px,-1px) scale(1.06);background:rgba(10,10,12,.15)}
+.btn:active{transform:scale(.978)}
+.btn.ghost{--bg:transparent;--fg:var(--bone);border:1px solid var(--line);background:var(--glass);backdrop-filter:blur(10px)}
+.btn.ghost .ico{background:rgba(242,238,231,.07)}
+.btn.ghost:hover{background:rgba(242,238,231,.07);box-shadow:none}
+.btn.wide{width:100%;justify-content:space-between}
+
+/* nav — no navigation links on a landing page */
+.nav{position:fixed;top:0;left:0;right:0;z-index:80;padding:18px var(--pad) 0;display:flex;justify-content:center;pointer-events:none}
+.nav-in{
+  pointer-events:auto;width:100%;max-width:var(--max);display:flex;align-items:center;gap:16px;
+  padding:10px 10px 10px 22px;border-radius:999px;border:1px solid var(--line);
+  background:rgba(8,8,10,.62);backdrop-filter:blur(22px) saturate(150%);
+  transition:background-color .6s var(--ease)
+}
+.nav.up .nav-in{background:rgba(8,8,10,.88)}
+.logo{display:block;width:116px;flex:0 0 116px;color:var(--bone)}
+.logo svg{width:100%;height:auto;display:block}
+.nav .ph{margin-left:auto;font-size:.85rem;text-decoration:none;color:var(--dim);letter-spacing:.01em;transition:color .4s var(--ease);white-space:nowrap}
+.nav .ph:hover{color:var(--bone)}
+.nav .btn{font-size:.82rem;padding:7px 7px 7px 20px}
+.nav .btn .ico{width:30px;height:30px;flex-basis:30px}
+@media (max-width:720px){.nav .ph{display:none}.logo{width:96px;flex-basis:96px}.nav .btn{margin-left:auto}}
+@media (max-width:440px){.nav .btn span{display:none}.nav .btn{padding:7px}}
+
+/* hero */
+.hero{padding-top:clamp(126px,19vh,196px);padding-bottom:clamp(48px,7vh,84px)}
+.hgrid{display:grid;grid-template-columns:1.04fr .96fr;gap:clamp(28px,4vw,60px);align-items:end}
+@media (max-width:940px){.hgrid{grid-template-columns:1fr;align-items:start}}
+.hero h1{margin:24px 0 22px}
+.hcta{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}
+.hmedia img{width:100%;height:clamp(290px,44vw,500px);object-fit:cover;display:block}
+.hmedia{position:relative}
+.hbadge{position:absolute;left:20px;bottom:20px;padding:5px;border-radius:18px;background:rgba(8,8,10,.62);border:1px solid var(--line);backdrop-filter:blur(14px)}
+.hbadge div{border-radius:13px;padding:10px 16px;background:rgba(242,238,231,.05);font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--dim)}
+.hbadge b{color:var(--bone);font-weight:500}
+
+.trust{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;margin-top:clamp(38px,5vh,64px);
+  border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:var(--line-2)}
+.trust>div{background:var(--ink);padding:20px 18px}
+.trust b{display:block;font-size:.9rem;font-weight:500;letter-spacing:-.01em}
+.trust span{display:block;font-size:.74rem;color:var(--faint);margin-top:3px}
+@media (max-width:720px){.trust{grid-template-columns:repeat(2,1fr)}}
+
+/* section head */
+.shead{display:grid;grid-template-columns:1fr 1fr;gap:clamp(22px,4vw,52px);align-items:end;margin-bottom:clamp(34px,5vh,58px)}
+@media (max-width:840px){.shead{grid-template-columns:1fr}}
+.shead .idx{display:block;margin-bottom:16px}
+
+/* plans */
+.plans{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+@media (max-width:960px){.plans{grid-template-columns:1fr}}
+.plan .core{padding:clamp(24px,2.8vw,34px);display:flex;flex-direction:column}
+.price{display:flex;align-items:baseline;gap:9px;margin:20px 0 4px}
+.price b{font-size:clamp(2rem,3.4vw,2.7rem);font-weight:300;letter-spacing:-.035em;line-height:1}
+.price i{font-style:normal;font-size:.76rem;color:var(--faint)}
+.spec{list-style:none;margin:22px 0 0;padding:0;display:grid;gap:10px;flex:1}
+.spec li{display:flex;gap:11px;font-size:.865rem;color:var(--dim);line-height:1.48}
+.spec svg{width:14px;height:14px;flex:0 0 14px;margin-top:5px;color:var(--champ)}
+.plan .btn{margin-top:26px}
+.mrow{display:flex;gap:20px;flex-wrap:wrap;margin-top:18px;padding-top:16px;border-top:1px solid var(--line-2)}
+.mrow span{display:block;font-size:9px;letter-spacing:.18em;text-transform:uppercase;color:var(--faint)}
+.mrow b{font-size:.8rem;font-weight:500}
+
+/* claim band */
+.band{padding:6px;border-radius:30px;background:linear-gradient(100deg,rgba(200,188,166,.10),rgba(200,188,166,.02));border:1px solid rgba(200,188,166,.16)}
+.band>div{border-radius:22px;padding:clamp(24px,3.2vw,38px);background:rgba(8,8,10,.5);border:1px solid var(--line-2)}
+.band p{font-size:clamp(1.08rem,1.9vw,1.5rem);line-height:1.36;max-width:46ch}
+
+/* portfolio — no outbound links */
+.folio{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+@media (max-width:880px){.folio{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:540px){.folio{grid-template-columns:1fr}}
+.card .core{position:relative}
+.card .img{position:relative;overflow:hidden;aspect-ratio:4/5}
+.card img{width:100%;height:100%;object-fit:cover;display:block}
+.card .img::after{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(8,8,10,.88),rgba(8,8,10,.12) 46%,transparent 70%)}
+.card .cap{position:absolute;inset:auto 0 0 0;padding:18px 20px;z-index:2}
+.card .cap b{display:block;font-size:.98rem;font-weight:400;letter-spacing:-.01em}
+.card .cap span{font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--dim)}
+
+/* craft rows */
+.rows{display:grid;gap:1px;background:var(--line-2);border-block:1px solid var(--line)}
+.row{background:var(--ink);display:grid;grid-template-columns:.32fr 1fr;gap:clamp(16px,3vw,44px);padding:26px clamp(2px,1vw,8px)}
+@media (max-width:720px){.row{grid-template-columns:1fr;gap:10px}}
+.row h3{padding-top:2px}
+
+/* faq */
+.faq{display:grid;gap:1px;background:var(--line-2);border-block:1px solid var(--line)}
+.faq details{background:var(--ink)}
+.faq summary{cursor:pointer;list-style:none;padding:20px clamp(2px,1vw,8px);display:flex;align-items:flex-start;gap:18px;
+  font-size:1rem;font-weight:400;letter-spacing:-.008em;transition:color .4s var(--ease)}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary:hover,.faq details[open] summary{color:var(--champ)}
+.faq .pm{margin-left:auto;flex:0 0 24px;width:24px;height:24px;position:relative;margin-top:2px}
+.faq .pm::before,.faq .pm::after{content:"";position:absolute;inset:50% 3px auto 3px;height:1px;background:currentColor;opacity:.55;
+  transition:transform .55s var(--ease),opacity .4s var(--ease)}
+.faq .pm::after{transform:rotate(90deg)}
+.faq details[open] .pm::after{transform:none;opacity:0}
+.faq .ans{padding:0 clamp(2px,1vw,8px) 24px;max-width:74ch}
+.faq details[open] .ans{animation:up .55s var(--ease) both}
+@keyframes up{from{opacity:0;transform:translate3d(0,10px,0)}to{opacity:1;transform:none}}
+
+/* form */
+.fgrid{display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(24px,4vw,52px);align-items:start}
+@media (max-width:960px){.fgrid{grid-template-columns:1fr}}
+.quote{padding:6px;border-radius:26px;background:var(--glass);border:1px solid var(--line-2);margin-top:30px}
+.quote>div{border-radius:19px;padding:22px 24px;background:rgba(8,8,10,.45);border:1px solid var(--line-2)}
+.quote blockquote{margin:0;font-size:.96rem;line-height:1.58}
+.quote footer{margin-top:14px;display:flex;align-items:center;gap:11px}
+.quote footer span{font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--champ)}
+.rule{height:1px;flex:1;background:var(--line)}
+.direct{margin-top:28px;padding-top:24px;border-top:1px solid var(--line)}
+.direct a{text-decoration:none;display:block}
+.direct .tel{font-size:clamp(1.25rem,2.2vw,1.6rem);font-weight:300;letter-spacing:-.02em;transition:color .4s var(--ease)}
+.direct .tel:hover{color:var(--champ)}
+
+.fcore{padding:clamp(24px,3vw,38px)!important}
+.field{margin-bottom:18px}
+.field label{display:block;font-size:11px;letter-spacing:.13em;text-transform:uppercase;color:var(--dim);margin-bottom:8px;font-weight:500}
+.field label em{font-style:normal;color:var(--faint);letter-spacing:.03em;text-transform:none}
+.field input{width:100%;min-height:52px;background:rgba(242,238,231,.035);border:1px solid var(--line);border-radius:14px;
+  padding:14px 17px;color:var(--bone);font-family:inherit;font-size:.98rem;font-weight:300;
+  transition:border-color .45s var(--ease),background-color .45s var(--ease)}
+.field input::placeholder{color:var(--faint)}
+.field input:focus{outline:none;border-color:rgba(200,188,166,.5);background:rgba(242,238,231,.06)}
+.field input[aria-invalid="true"]{border-color:#B4584F}
+.err{font-size:.78rem;color:#D18076;margin-top:6px;display:none}
+.err.on{display:block}
+.opts{display:grid;gap:9px}
+.opt{position:relative}
+.opt input{position:absolute;opacity:0;width:0;height:0}
+.opt span{display:flex;align-items:center;gap:13px;cursor:pointer;min-height:54px;padding:12px 17px;
+  border:1px solid var(--line);border-radius:15px;background:rgba(242,238,231,.02);font-size:.93rem;font-weight:300;
+  transition:border-color .45s var(--ease),background-color .45s var(--ease)}
+.opt span::before{content:"";width:15px;height:15px;flex:0 0 15px;border-radius:50%;border:1px solid var(--faint);
+  transition:box-shadow .4s var(--ease),border-color .4s var(--ease)}
+.opt span small{margin-left:auto;color:var(--faint);font-size:.79rem;white-space:nowrap}
+.opt input:checked+span{border-color:rgba(200,188,166,.55);background:rgba(200,188,166,.07)}
+.opt input:checked+span::before{border-color:var(--champ);box-shadow:inset 0 0 0 4px var(--champ)}
+.opt input:focus-visible+span{outline:2px solid rgba(200,188,166,.5);outline-offset:2px}
+.done{display:none;text-align:center;padding:clamp(26px,5vw,52px) 0}
+.done.on{display:block;animation:up .7s var(--ease) both}
+.done .tick{width:54px;height:54px;margin:0 auto 24px;border-radius:50%;border:1px solid rgba(200,188,166,.4);display:grid;place-items:center;color:var(--champ)}
+
+footer.ft{border-top:1px solid var(--line);padding-block:40px 110px}
+.fbot{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between;align-items:center}
+
+.dock{position:fixed;z-index:85;left:0;right:0;bottom:0;padding:12px var(--pad) calc(12px + env(safe-area-inset-bottom));
+  background:rgba(8,8,10,.84);backdrop-filter:blur(20px);border-top:1px solid var(--line);display:none;gap:10px;
+  transform:translate3d(0,120%,0);transition:transform .7s var(--ease)}
+.dock.on{transform:none}
+.dock .btn{flex:1;justify-content:center;padding:12px 16px;font-size:.88rem}
+.dock .btn .ico{display:none}
+@media (max-width:860px){.dock{display:flex}footer.ft{padding-bottom:120px}}
+
+.rv{opacity:0;transform:translate3d(0,30px,0)}
+.rv.in{opacity:1;transform:none;transition:opacity .85s var(--ease),transform .85s var(--ease)}
+.rv.d1.in{transition-delay:.07s}.rv.d2.in{transition-delay:.14s}.rv.d3.in{transition-delay:.21s}
+@media (prefers-reduced-motion:reduce){.rv{opacity:1;transform:none}}
+:focus-visible{outline:2px solid var(--champ);outline-offset:3px;border-radius:4px}
+
+/* aanvullingen v3 */
+/* gelijke kaarthoogte -> CTA's op één lijn */
+.plan{display:flex}
+.plan>.shell{flex:1;display:flex;flex-direction:column}
+.plan>.shell>.core{flex:1;display:flex;flex-direction:column}
+.plan .price{min-height:clamp(2rem,3.4vw,2.7rem)}
+.plan>.shell>.core>.tiny{min-height:2.6em}
+.mrow{min-height:40px;align-items:flex-start}
+.rows .row:first-child{padding-top:6px}
+.secquote{margin-top:20px}
+.secquote>div{border-radius:19px;padding:22px 24px;background:rgba(8,8,10,.45);border:1px solid var(--line-2)}
+.secquote{padding:6px;border-radius:26px;background:linear-gradient(100deg,rgba(200,188,166,.09),rgba(200,188,166,.02));border:1px solid rgba(200,188,166,.15)}
+.secquote blockquote{margin:0;font-size:clamp(.98rem,1.5vw,1.14rem);line-height:1.55}
+.secquote footer{margin-top:14px;display:flex;align-items:center;gap:11px}
+.secquote footer span{font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--champ)}
+</style>
+</head>
+<body>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{gtm.id}}"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<div class="glow" aria-hidden="true"><i></i><i></i></div>
+
+<header class="nav" id="nav">
+  <div class="nav-in">
+    <span class="logo" aria-label="Rooselaer Car Styling"><svg viewBox="0 0 1586 231" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M0 226.448V3.81653H87.7804C105.167 3.81653 119.373 6.78495 130.398 12.7218C141.636 18.4466 149.905 26.2917 155.206 36.2571C160.719 46.0105 163.475 57.1421 163.475 69.6518C163.475 80.8894 161.037 91.2789 156.16 100.82C151.283 110.15 143.862 117.783 133.897 123.719C144.074 128.808 151.389 136.017 155.842 145.346C160.507 154.464 163.263 165.383 164.111 178.105L166.656 226.448H138.35L135.805 180.649C135.169 170.048 133.367 161.461 130.398 154.888C127.43 148.315 122.447 143.544 115.45 140.576C108.665 137.395 99.124 135.805 86.8262 135.805H28.624V226.448H0ZM28.624 112.588H85.8721C102.622 112.588 114.814 108.665 122.447 100.82C130.292 92.7631 134.215 82.3736 134.215 69.6518C134.215 56.718 130.398 46.5406 122.765 39.1195C115.344 31.4864 103.047 27.6699 85.8721 27.6699H28.624V112.588Z" fill="currentColor"/>
+        <path d="M287.438 230.264C265.599 230.264 246.411 225.388 229.872 215.634C213.334 205.881 200.4 192.417 191.071 175.243C181.954 157.856 177.395 137.819 177.395 115.132C177.395 92.445 181.954 72.5142 191.071 55.3398C200.4 37.9534 213.334 24.3834 229.872 14.6301C246.411 4.87669 265.599 0 287.438 0C309.49 0 328.678 4.87669 345.005 14.6301C361.543 24.3834 374.371 37.9534 383.488 55.3398C392.817 72.5142 397.482 92.445 397.482 115.132C397.482 137.819 392.817 157.856 383.488 175.243C374.371 192.417 361.543 205.881 345.005 215.634C328.678 225.388 309.49 230.264 287.438 230.264ZM287.438 204.821C303.553 204.821 317.653 201.322 329.738 194.325C341.824 187.116 351.259 176.833 358.044 163.475C364.829 149.905 368.222 133.791 368.222 115.132C368.222 96.4736 364.829 80.4654 358.044 67.1075C351.259 53.7496 341.824 43.4661 329.738 36.2571C317.653 29.0481 303.553 25.4436 287.438 25.4436C271.536 25.4436 257.436 29.0481 245.139 36.2571C233.053 43.4661 223.617 53.7496 216.833 67.1075C210.26 80.4654 206.973 96.4736 206.973 115.132C206.973 133.791 210.26 149.905 216.833 163.475C223.617 176.833 233.053 187.116 245.139 194.325C257.436 201.322 271.536 204.821 287.438 204.821Z" fill="currentColor"/>
+        <path d="M521.881 230.264C500.042 230.264 480.854 225.388 464.315 215.634C447.777 205.881 434.843 192.417 425.514 175.243C416.397 157.856 411.838 137.819 411.838 115.132C411.838 92.445 416.397 72.5142 425.514 55.3398C434.843 37.9534 447.777 24.3834 464.315 14.6301C480.854 4.87669 500.042 0 521.881 0C543.933 0 563.121 4.87669 579.448 14.6301C595.986 24.3834 608.814 37.9534 617.931 55.3398C627.26 72.5142 631.925 92.445 631.925 115.132C631.925 137.819 627.26 157.856 617.931 175.243C608.814 192.417 595.986 205.881 579.448 215.634C563.121 225.388 543.933 230.264 521.881 230.264ZM521.881 204.821C537.995 204.821 552.096 201.322 564.181 194.325C576.267 187.116 585.702 176.833 592.487 163.475C599.272 149.905 602.665 133.791 602.665 115.132C602.665 96.4736 599.272 80.4654 592.487 67.1075C585.702 53.7496 576.267 43.4661 564.181 36.2571C552.096 29.0481 537.995 25.4436 521.881 25.4436C505.979 25.4436 491.878 29.0481 479.581 36.2571C467.496 43.4661 458.06 53.7496 451.276 67.1075C444.703 80.4654 441.416 96.4736 441.416 115.132C441.416 133.791 444.703 149.905 451.276 163.475C458.06 176.833 467.496 187.116 479.581 194.325C491.878 201.322 505.979 204.821 521.881 204.821Z" fill="currentColor"/>
+        <path d="M660.549 226.448V3.81653H812.881V27.6699H689.173V101.775H802.386V125.628H689.173V202.594H814.79V226.448H660.549Z" fill="currentColor"/>
+        <path d="M845.639 226.448V3.81653H874.263V202.594H994.153V226.448H845.639Z" fill="currentColor"/>
+        <path d="M1010.31 226.448L1101.27 3.81653H1131.8L1222.76 226.448H1191.91L1166.79 163.475H1065.97L1041.17 226.448H1010.31ZM1075.19 139.622H1157.57L1116.38 34.5608L1075.19 139.622Z" fill="currentColor"/>
+        <path d="M1249.05 226.448V3.81653H1401.38V27.6699H1277.67V101.775H1390.88V125.628H1277.67V202.594H1403.29V226.448H1249.05Z" fill="currentColor"/>
+        <path d="M1419.32 226.448V3.81653H1507.1C1524.49 3.81653 1538.69 6.78495 1549.72 12.7218C1560.96 18.4466 1569.23 26.2917 1574.53 36.2571C1580.04 46.0105 1582.8 57.1421 1582.8 69.6518C1582.8 80.8894 1580.36 91.2789 1575.48 100.82C1570.6 110.15 1563.18 117.783 1553.22 123.719C1563.4 128.808 1570.71 136.017 1575.16 145.346C1579.83 154.464 1582.58 165.383 1583.43 178.105L1585.98 226.448H1557.67L1555.13 180.649C1554.49 170.048 1552.69 161.461 1549.72 154.888C1546.75 148.315 1541.77 143.544 1534.77 140.576C1527.99 137.395 1518.45 135.805 1506.15 135.805H1447.95V226.448H1419.32ZM1447.95 112.588H1505.19C1521.94 112.588 1534.14 108.665 1541.77 100.82C1549.61 92.7631 1553.54 82.3736 1553.54 69.6518C1553.54 56.718 1549.72 46.5406 1542.09 39.1195C1534.67 31.4864 1522.37 27.6699 1505.19 27.6699H1447.95V112.588Z" fill="currentColor"/>
+      </svg></span>
+    <a href="tel:{{tel.href}}" class="ph" data-cta="nav-phone">{{tel.display}}</a>
+    <a href="#aanvraag" class="btn" data-cta="nav">
+      <span>{{cta.main}}</span>
+      <i class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 12h14M13 6l6 6-6 6"/></svg></i>
+    </a>
+  </div>
+</header>
+
+<main>
+
+<!-- HERO -->
+<section class="hero" id="top">
+  <div class="wrap">
+    <div class="hgrid">
+      <div>
+        <span class="eyebrow">{{hero.eyebrow}}</span>
+        <h1 class="display">{{hero.h1}}</h1>
+        <p class="lead">{{hero.lead}}</p>
+        <div class="hcta">
+          <a href="#aanvraag" class="btn" data-cta="hero">
+            <span>{{cta.main}}</span>
+            <i class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 12h14M13 6l6 6-6 6"/></svg></i>
+          </a>
+          <a href="tel:{{tel.href}}" class="btn ghost" data-cta="hero-phone">
+            <span>{{cta.phone}}</span>
+            <i class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a1 1 0 0 1-1 1A16 16 0 0 1 4 5a1 1 0 0 1 1-1Z"/></svg></i>
+          </a>
+        </div>
+      </div>
+      <div class="hmedia">
+        <div class="shell"><div class="core">
+          <img src="https://rslr.be/wp-content/uploads/2025/08/paint-protection-film-scaled.webp"
+               alt="{{hero.img.alt}}" width="1200" height="800" fetchpriority="high">
+        </div></div>
+        <div class="hbadge"><div>{{hero.badge}}</div></div>
+      </div>
+    </div>
+    <div class="trust">
+      <div><b>{{trust.1.title}}</b><span>{{trust.1.sub}}</span></div>
+      <div><b>{{trust.2.title}}</b><span>{{trust.2.sub}}</span></div>
+      <div><b>{{trust.3.title}}</b><span>{{trust.3.sub}}</span></div>
+      <div><b>{{trust.4.title}}</b><span>{{trust.4.sub}}</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- 01 PRIJZEN -->
+<section id="prijzen">
+  <div class="wrap">
+    <div class="shead">
+      <div class="rv"><span class="idx">{{prijzen.idx}}</span><h2 class="h2">{{prijzen.h2}}</h2></div>
+      <p class="lead rv d1">{{prijzen.lead}}</p>
+    </div>
+    <div class="plans">
+
+      <div class="plan rv d1"><div class="shell"><div class="core">
+        <span class="idx">{{plan.1.name}}</span>
+        <div class="price"><b>{{plan.1.price}}</b><i>{{plan.1.from}}</i></div>
+        <p class="tiny">{{plan.1.sub}}</p>
+        <ul class="spec">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 12.5 9 17.5 20 6.5"/></svg>{{plan.1.spec.1}}</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 12.5 9 17.5 20 6.5"/></svg>{{plan.1.spec.2}}</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 12.5 9 17.5 20 6.5"/></svg>{{plan.1.spec.3}}</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 12.5 9 17.5 20 6.5"/></svg>{{plan.1.spec.4}}</li>
+        </ul>
+        <div class="mrow"><div><span>{{plan.label.duur}}</span><b>{{plan.1.meta.1}}</b></div><div><span>{{plan.label.finish}}</span><b>{{plan.1.meta.2}}</b></div></div>
+        <a href="#aanvraag" class="btn ghost wide" data-plan="{{plan.1.value}}" data-cta="plan-front">
+          <span>{{plan.1.cta}}</span>
+          <i class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 12h14M13 6l6 6-6 6"/></svg></i>
+        </a>
+      </div></div></div>
+
+      <div class="plan rv d2"><div class="shell"><div class="core">
+        <span class="idx">{{plan.2.name}}</span>
+        <div class="price"><b>{{plan.2.price}}</b><i>{{plan.2.from}}</i></div>
+        <p class="tiny">{{plan.2.sub}}</p>
+        <ul class="spec">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 12.5 9 17.5 20 6.5"/></svg>{{plan.2.spec.1}}</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 12.5 9 17.5 20 6.5"/></svg>{{plan.2.spec.2}}</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 12.5 9 17.5 20 6.5"/></svg>{{plan.2.spec.3}}</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 12.5 9 17.5 20 6.5"/></svg>{{plan.2.spec.4}}</li>
+        </ul>
+        <div class="mrow"><div><span>{{plan.label.duur}}</span><b>{{plan.2.meta.1}}</b></div><div><span>{{plan.label.finish}}</span><b>{{plan.2.meta.2}}</b></div></div>
+        <a href="#aanvraag" class="btn wide" data-plan="{{plan.2.value}}" data-cta="plan-full">
+          <span>{{plan.2.cta}}</span>
+          <i class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 12h14M13 6l6 6-6 6"/></svg></i>
+        </a>
+      </div></div></div>
+
+      <div class="plan rv d3"><div class="shell"><div class="core">
+        <span class="idx">{{plan.3.name}}</span>
+        <div class="price"><b>{{plan.3.price}}</b><i>{{plan.3.from}}</i></div>
+        <p class="tiny">{{plan.3.sub}}</p>
+        <ul class="spec">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 12.5 9 17.5 20 6.5"/></svg>{{plan.3.spec.1}}</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 12.5 9 17.5 20 6.5"/></svg>{{plan.3.spec.2}}</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 12.5 9 17.5 20 6.5"/></svg>{{plan.3.spec.3}}</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 12.5 9 17.5 20 6.5"/></svg>{{plan.3.spec.4}}</li>
+        </ul>
+        <div class="mrow"><div><span>{{plan.label.duur}}</span><b>{{plan.3.meta.1}}</b></div><div><span>{{plan.label.aanpak}}</span><b>{{plan.3.meta.2}}</b></div></div>
+        <a href="#aanvraag" class="btn ghost wide" data-plan="{{plan.3.value}}" data-cta="plan-custom">
+          <span>{{plan.3.cta}}</span>
+          <i class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 12h14M13 6l6 6-6 6"/></svg></i>
+        </a>
+      </div></div></div>
+
+    </div>
+  </div>
+</section>
+
+<!-- 02 REALISATIES -->
+<section id="realisaties">
+  <div class="wrap">
+    <div class="shead">
+      <div class="rv"><span class="idx">{{folio.idx}}</span><h2 class="h2">{{folio.h2}}</h2></div>
+      <p class="lead rv d1">{{folio.lead}}</p>
+    </div>
+    <div class="folio">
+      <div class="card rv d1"><div class="shell"><div class="core"><div class="img">
+        <img src="https://rslr.be/wp-content/uploads/2026/02/Valhalla-00001-683x1024.jpg" alt="{{folio.1.name}} met PPF bij Rooselaer" loading="lazy" width="683" height="1024">
+        <div class="cap"><b>{{folio.1.name}}</b><span>{{folio.1.duur}}</span></div>
+      </div></div></div></div>
+      <div class="card rv d2"><div class="shell"><div class="core"><div class="img">
+        <img src="https://rslr.be/wp-content/uploads/2025/08/f40-achter-819x1024.webp" alt="{{folio.2.name}} bij Rooselaer" loading="lazy" width="819" height="1024">
+        <div class="cap"><b>{{folio.2.name}}</b><span>{{folio.2.duur}}</span></div>
+      </div></div></div></div>
+      <div class="card rv d3"><div class="shell"><div class="core"><div class="img">
+        <img src="https://rslr.be/wp-content/uploads/2025/08/revuelto-achter-819x1024.webp" alt="{{folio.3.name}} met PPF bij Rooselaer" loading="lazy" width="819" height="1024">
+        <div class="cap"><b>{{folio.3.name}}</b><span>{{folio.3.duur}}</span></div>
+      </div></div></div></div>
+      <div class="card rv d1"><div class="shell"><div class="core"><div class="img">
+        <img src="https://rslr.be/wp-content/uploads/2025/08/gt3rs-grijs-achter-819x1024.webp" alt="{{folio.4.name}} met PPF bij Rooselaer" loading="lazy" width="819" height="1024">
+        <div class="cap"><b>{{folio.4.name}}</b><span>{{folio.4.duur}}</span></div>
+      </div></div></div></div>
+      <div class="card rv d2"><div class="shell"><div class="core"><div class="img">
+        <img src="https://rslr.be/wp-content/uploads/2026/02/RCS-sf90xx-Aston-martin-vantage-00542-683x1024.webp" alt="{{folio.5.name}} bij Rooselaer" loading="lazy" width="683" height="1024">
+        <div class="cap"><b>{{folio.5.name}}</b><span>{{folio.5.duur}}</span></div>
+      </div></div></div></div>
+      <div class="card rv d3"><div class="shell"><div class="core"><div class="img">
+        <img src="https://rslr.be/wp-content/uploads/2025/08/sto-gemonteerd-819x1024.webp" alt="{{folio.6.name}} bij Rooselaer" loading="lazy" width="819" height="1024">
+        <div class="cap"><b>{{folio.6.name}}</b><span>{{folio.6.duur}}</span></div>
+      </div></div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- 03 NAADLOOS -->
+<section id="naadloos">
+  <div class="wrap">
+    <div class="shead">
+      <div class="rv"><span class="idx">{{naad.idx}}</span><h2 class="h2">{{naad.h2}}</h2></div>
+      <p class="lead rv d1">{{naad.lead}}</p>
+    </div>
+    <div class="rows rv d1">
+      <div class="row"><h3 class="h3">{{naad.1.title}}</h3><p class="small">{{naad.1.body}}</p></div>
+      <div class="row"><h3 class="h3">{{naad.2.title}}</h3><p class="small">{{naad.2.body}}</p></div>
+      <div class="row"><h3 class="h3">{{naad.3.title}}</h3><p class="small">{{naad.3.body}}</p></div>
+      <div class="row"><h3 class="h3">{{naad.4.title}}</h3><p class="small">{{naad.4.body}}</p></div>
+    </div>
+    <div class="secquote rv d2"><div>
+      <blockquote>{{naad.quote}}</blockquote>
+      <footer><span>{{naad.quote.by}}</span><i class="rule"></i></footer>
+    </div></div>
+  </div>
+</section>
+
+<!-- 04 SERVICE -->
+<section id="service">
+  <div class="wrap">
+    <div class="shead">
+      <div class="rv"><span class="idx">{{serv.idx}}</span><h2 class="h2">{{serv.h2}}</h2></div>
+      <p class="lead rv d1">{{serv.lead}}</p>
+    </div>
+    <div class="rows rv d1">
+      <div class="row"><h3 class="h3">{{serv.1.title}}</h3><p class="small">{{serv.1.body}}</p></div>
+      <div class="row"><h3 class="h3">{{serv.2.title}}</h3><p class="small">{{serv.2.body}}</p></div>
+      <div class="row"><h3 class="h3">{{serv.3.title}}</h3><p class="small">{{serv.3.body}}</p></div>
+      <div class="row"><h3 class="h3">{{serv.4.title}}</h3><p class="small">{{serv.4.body}}</p></div>
+    </div>
+    <div class="rv d2" style="margin-top:26px;">
+      <a href="#aanvraag" class="btn" data-cta="service">
+        <span>{{cta.main}}</span>
+        <i class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 12h14M13 6l6 6-6 6"/></svg></i>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- 05 VRAGEN -->
+<section id="vragen">
+  <div class="wrap">
+    <div class="shead">
+      <div class="rv"><span class="idx">{{faq.idx}}</span><h2 class="h2">{{faq.h2}}</h2></div>
+      <p class="lead rv d1">{{faq.lead}}</p>
+    </div>
+    <div class="faq rv d1">
+      <details><summary>{{faq.1.q}}<i class="pm"></i></summary><div class="ans"><p class="small">{{faq.1.a}}</p></div></details>
+      <details><summary>{{faq.2.q}}<i class="pm"></i></summary><div class="ans"><p class="small">{{faq.2.a}}</p></div></details>
+      <details><summary>{{faq.3.q}}<i class="pm"></i></summary><div class="ans"><p class="small">{{faq.3.a}}</p></div></details>
+      <details><summary>{{faq.4.q}}<i class="pm"></i></summary><div class="ans"><p class="small">{{faq.4.a}}</p></div></details>
+      <details><summary>{{faq.5.q}}<i class="pm"></i></summary><div class="ans"><p class="small">{{faq.5.a}}</p></div></details>
+      <details><summary>{{faq.6.q}}<i class="pm"></i></summary><div class="ans"><p class="small">{{faq.6.a}}</p></div></details>
+      <details><summary>{{faq.7.q}}<i class="pm"></i></summary><div class="ans"><p class="small">{{faq.7.a}}</p></div></details>
+      <details><summary>{{faq.8.q}}<i class="pm"></i></summary><div class="ans"><p class="small">{{faq.8.a}}</p></div></details>
+    </div>
+  </div>
+</section>
+
+<!-- 06 AANVRAAG -->
+<section id="aanvraag">
+  <div class="wrap">
+    <div class="fgrid">
+      <div class="rv">
+        <span class="idx">{{form.idx}}</span>
+        <h2 class="h2" style="margin-top:16px;">{{form.h2}}</h2>
+        <p class="lead" style="margin-top:20px;">{{form.lead}}</p>
+        <div class="direct">
+          <a href="tel:{{tel.href}}" data-cta="form-phone"><span class="tel">{{tel.display}}</span></a>
+          <a href="mailto:{{mail}}" class="small" style="margin-top:6px;color:var(--dim);" data-cta="form-mail">{{mail}}</a>
+          <p class="tiny" style="margin-top:12px;">{{form.location}}</p>
+        </div>
+      </div>
+
+      <div class="rv d1">
+        <div class="shell"><div class="core fcore">
+          <form id="lead" novalidate>
+            <div class="field">
+              <label for="car">{{form.car.label}}</label>
+              <input id="car" name="car" type="text" placeholder="{{form.car.placeholder}}" autocomplete="off">
+              <p class="err" data-for="car">{{form.car.error}}</p>
+            </div>
+            <div class="field">
+              <label>{{form.pakket.label}}</label>
+              <div class="opts">
+                <label class="opt"><input type="radio" name="pakket" value="{{plan.1.value}}"><span>{{plan.1.name}} <small>{{plan.1.from}} {{plan.1.price}}</small></span></label>
+                <label class="opt"><input type="radio" name="pakket" value="{{plan.2.value}}"><span>{{plan.2.name}} <small>{{plan.2.from}} {{plan.2.price}}</small></span></label>
+                <label class="opt"><input type="radio" name="pakket" value="{{plan.3.value}}"><span>{{plan.3.name}} <small>{{plan.3.price}}</small></span></label>
+                <label class="opt"><input type="radio" name="pakket" value="{{form.pakket.4.value}}"><span>{{form.pakket.4}} <small>{{form.pakket.4.note}}</small></span></label>
+              </div>
+              <p class="err" data-for="pakket">{{form.pakket.error}}</p>
+            </div>
+            <div class="field">
+              <label for="name">{{form.name.label}}</label>
+              <input id="name" name="name" type="text" placeholder="{{form.name.placeholder}}" autocomplete="name">
+              <p class="err" data-for="name">{{form.name.error}}</p>
+            </div>
+            <div class="field">
+              <label for="email">{{form.email.label}}</label>
+              <input id="email" name="email" type="email" placeholder="{{form.email.placeholder}}" autocomplete="email" inputmode="email">
+              <p class="err" data-for="email">{{form.email.error}}</p>
+            </div>
+            <div class="field" style="margin-bottom:22px;">
+              <label for="phone">{{form.phone.label}}</label>
+              <input id="phone" name="phone" type="tel" placeholder="{{form.phone.placeholder}}" autocomplete="tel" inputmode="tel">
+            </div>
+            <div aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden">
+              <label for="website">Website</label>
+              <input id="website" name="website" type="text" tabindex="-1" autocomplete="off">
+            </div>
+            <button type="submit" class="btn wide" id="submitBtn">
+              <span>{{form.submit}}</span>
+              <i class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 12h14M13 6l6 6-6 6"/></svg></i>
+            </button>
+            <p class="tiny" style="margin-top:16px;">{{form.privacy}}</p>
+          </form>
+
+          <div class="done" id="done" role="status">
+            <div class="tick"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 12.5 9 17.5 20 6.5"/></svg></div>
+            <h3 class="h3" style="font-size:1.32rem;">{{done.title}}</h3>
+            <p class="small" style="max-width:40ch;margin:12px auto 0;">{{done.body}} <a href="tel:{{tel.href}}" style="color:var(--champ);text-decoration:none;">{{tel.display}}</a>.</p>
+          </div>
+        </div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="ft">
+  <div class="wrap">
+    <div class="fbot">
+      <p class="tiny">{{footer.left}} <a href="tel:{{tel.href}}" style="color:var(--faint);text-decoration:none;">{{tel.display}}</a></p>
+      <p class="tiny">
+        <a href="https://rslr.be/privacybeleid" style="color:var(--faint);text-decoration:none;" rel="nofollow">Privacybeleid</a> ·
+        <a href="https://rslr.be/cookiebeleid" style="color:var(--faint);text-decoration:none;" rel="nofollow">Cookiebeleid</a>
+      </p>
+    </div>
+  </div>
+</footer>
+
+<div class="dock" id="dock">
+  <a href="tel:{{tel.href}}" class="btn ghost" data-cta="dock-phone"><span>{{cta.dock.phone}}</span></a>
+  <a href="#aanvraag" class="btn" data-cta="dock-form"><span>{{cta.main}}</span></a>
+</div>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+{"@type":"AutoBodyShop","@id":"https://rslr.be/#business","name":"Rooselaer Car Styling",
+ "description":"Carrosserie, lak, detailing en naadloze Paint Protection Film voor exclusieve wagens.",
+ "telephone":"{{tel.href}}","email":"{{mail}}","url":"https://rslr.be",
+ "address":{"@type":"PostalAddress","addressLocality":"Sint-Niklaas","addressCountry":"BE"},
+ "areaServed":"BE","priceRange":"€€€€",
+ "sameAs":["https://www.instagram.com/rooselaer_carstyling/","https://www.facebook.com/profile.php?id=100063840351109"]},
+{"@type":"Service","name":"Paint Protection Film (PPF)","serviceType":"Paint Protection Film",
+ "provider":{"@id":"https://rslr.be/#business"},"areaServed":"BE",
+ "offers":[
+  {"@type":"Offer","name":"Front PPF","priceSpecification":{"@type":"PriceSpecification","minPrice":"2200","priceCurrency":"EUR","valueAddedTaxIncluded":false}},
+  {"@type":"Offer","name":"Full PPF","priceSpecification":{"@type":"PriceSpecification","minPrice":"5500","priceCurrency":"EUR","valueAddedTaxIncluded":false}}]},
+{"@type":"FAQPage","mainEntity":[
+ {"@type":"Question","name":"{{faq.1.q}}","acceptedAnswer":{"@type":"Answer","text":"{{faq.1.a}}"}},
+ {"@type":"Question","name":"{{faq.2.q}}","acceptedAnswer":{"@type":"Answer","text":"{{faq.2.a}}"}},
+ {"@type":"Question","name":"{{faq.3.q}}","acceptedAnswer":{"@type":"Answer","text":"{{faq.3.a}}"}},
+ {"@type":"Question","name":"{{faq.4.q}}","acceptedAnswer":{"@type":"Answer","text":"{{faq.4.a}}"}},
+ {"@type":"Question","name":"{{faq.5.q}}","acceptedAnswer":{"@type":"Answer","text":"{{faq.5.a}}"}},
+ {"@type":"Question","name":"{{faq.6.q}}","acceptedAnswer":{"@type":"Answer","text":"{{faq.6.a}}"}},
+ {"@type":"Question","name":"{{faq.7.q}}","acceptedAnswer":{"@type":"Answer","text":"{{faq.7.a}}"}},
+ {"@type":"Question","name":"{{faq.8.q}}","acceptedAnswer":{"@type":"Answer","text":"{{faq.8.a}}"}}]}]}
+</script>
+
+<script>
+(function(){
+  'use strict';
+
+  /* ─────────────────────────────────────────────────────────────
+     FORMULIER — kies één van de twee. Zie README.md.
+
+     A) WEB3FORMS  (makkelijkst — geen account, geen scenario)
+        Haal een access key op web3forms.com en zet die hieronder.
+        Leads komen als mail binnen op het adres dat je daar opgeeft.
+
+     B) EIGEN WEBHOOK  (Make.com, Zapier, n8n)
+        Laat WEB3FORMS_KEY leeg en zet je webhook-URL in FORM_ENDPOINT.
+
+     Beide leeg = mailto-fallback (opent de mailclient van de bezoeker,
+     werkt slecht op mobiel — niet gebruiken voor advertentieverkeer).
+     ───────────────────────────────────────────────────────────── */
+  var WEB3FORMS_KEY = 'c7b2f749-f090-4c3f-863b-e6866d0b6b74';
+  var FORM_ENDPOINT = '';
+
+  var MAIL = '{{mail}}';
+  var TEL  = '{{tel.display}}';
+
+  var dl = function(n,p){ window.dataLayer=window.dataLayer||[]; window.dataLayer.push(Object.assign({event:n},p||{})); };
+
+  var rv = document.querySelectorAll('.rv');
+  if ('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(es){
+      es.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } });
+    },{rootMargin:'0px 0px -8% 0px',threshold:.08});
+    rv.forEach(function(el){ io.observe(el); });
+  } else { rv.forEach(function(el){ el.classList.add('in'); }); }
+
+  var nav=document.getElementById('nav'), dock=document.getElementById('dock'), hero=document.getElementById('top');
+  var onScroll=function(){
+    var y=window.scrollY||0;
+    nav.classList.toggle('up', y>40);
+    if(dock) dock.classList.toggle('on', y>(hero?hero.offsetHeight*.6:420));
+  };
+  window.addEventListener('scroll',onScroll,{passive:true}); onScroll();
+
+  document.querySelectorAll('[data-cta]').forEach(function(el){
+    el.addEventListener('click',function(){
+      var id=el.getAttribute('data-cta');
+      dl(id.indexOf('phone')>-1?'phone_click':'cta_click',{cta_id:id});
+    });
+  });
+
+  document.querySelectorAll('[data-plan]').forEach(function(el){
+    el.addEventListener('click',function(){
+      var v=el.getAttribute('data-plan');
+      var i=document.querySelector('input[name="pakket"][value="'+v+'"]');
+      if(i) i.checked=true;
+      dl('select_package',{package:v});
+    });
+  });
+
+  var form=document.getElementById('lead');
+  if(!form) return;
+  var done=document.getElementById('done'), started=false, loadedAt=Date.now();
+
+  function mark(id,on){
+    var m=form.querySelector('.err[data-for="'+id+'"]');
+    if(m) m.classList.toggle('on',!!on);
+    var i=form.querySelector('#'+id);
+    if(i) i.setAttribute('aria-invalid',on?'true':'false');
+  }
+
+  function valid(){
+    var ok=true, first=null;
+    if(form.car.value.trim().length<2){ mark('car',true); ok=false; first=first||form.car; } else mark('car',false);
+    var p=form.querySelector('input[name="pakket"]:checked');
+    var pm=form.querySelector('.err[data-for="pakket"]');
+    if(!p){ if(pm) pm.classList.add('on'); ok=false; } else if(pm) pm.classList.remove('on');
+    if(form.name.value.trim().length<2){ mark('name',true); ok=false; first=first||form.name; } else mark('name',false);
+    if(!/^[^\s@]+@[^\s@]+\.[a-z]{2,}$/i.test(form.email.value.trim())){ mark('email',true); ok=false; first=first||form.email; } else mark('email',false);
+    if(first) first.focus();
+    return ok;
+  }
+
+  form.addEventListener('input',function(e){
+    if(!started){ started=true; dl('form_start',{}); }
+    if(e.target.id) mark(e.target.id,false);
+  });
+
+  form.addEventListener('submit',function(e){
+    e.preventDefault();
+    /* spamfilter: honeypot gevuld of formulier binnen 3s verstuurd */
+    if(form.website.value || Date.now()-loadedAt < 3000){ form.style.display='none'; done.classList.add('on'); return; }
+    if(!valid()) return;
+
+    var btn=document.getElementById('submitBtn'), lbl=btn.querySelector('span'), original=lbl.textContent;
+    var pick=function(n){ var el=form.querySelector('input[name="'+n+'"]:checked'); return el?el.value:''; };
+    var data={
+      wagen:form.car.value.trim(), pakket:pick('pakket'),
+      naam:form.name.value.trim(), email:form.email.value.trim(),
+      telefoon:form.phone.value.trim(),
+      pagina:location.href, tijdstip:new Date().toISOString()
+    };
+
+    lbl.textContent='Versturen…'; btn.disabled=true;
+
+    function ok(){ form.style.display='none'; done.classList.add('on'); dl('generate_lead',{form:'ppf_landing'}); }
+
+    function fail(){
+      lbl.textContent=original; btn.disabled=false;
+      alert('Versturen lukte niet. Bel '+TEL+' of mail naar '+MAIL+'.');
+    }
+
+    /* A) Web3Forms */
+    if(WEB3FORMS_KEY){
+      var payload = {
+        access_key: WEB3FORMS_KEY,
+        subject: 'PPF-aanvraag — ' + data.wagen,
+        from_name: 'PPF landingpage',
+        Wagen: data.wagen,
+        Pakket: data.pakket,
+        Naam: data.naam,
+        Email: data.email,
+        Telefoon: data.telefoon || '—',
+        Pagina: data.pagina,
+        botcheck: false
+      };
+      fetch('https://api.web3forms.com/submit',{
+        method:'POST',
+        headers:{'Content-Type':'application/json','Accept':'application/json'},
+        body:JSON.stringify(payload)
+      }).then(function(r){ return r.json(); })
+        .then(function(j){ if(j && j.success){ ok(); } else { fail(); } })
+        .catch(fail);
+      return;
+    }
+
+    /* B) Eigen webhook — text/plain voorkomt een CORS-preflight,
+          die Make- en Zapier-webhooks niet afhandelen. */
+    if(FORM_ENDPOINT){
+      fetch(FORM_ENDPOINT,{method:'POST',headers:{'Content-Type':'text/plain;charset=UTF-8'},body:JSON.stringify(data)})
+        .then(function(r){ if(!r.ok) throw 0; ok(); })
+        .catch(fail);
+      return;
+    }
+
+    /* Fallback */
+    var body=Object.keys(data).map(function(k){ return k.charAt(0).toUpperCase()+k.slice(1)+': '+(data[k]||'—'); }).join('\n');
+    window.location.href='mailto:'+MAIL+'?subject='+encodeURIComponent('PPF-aanvraag — '+data.wagen)+'&body='+encodeURIComponent(body);
+    ok();
+  });
+})();
+</script>
+</body>
+</html>
