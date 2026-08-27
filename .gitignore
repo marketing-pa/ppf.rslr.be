@@ -4,3 +4,8 @@
 # elk bestand in de root, dus HANDOFF.md zou leesbaar zijn op
 # ppf.rslr.be/HANDOFF.md (concurrentieanalyse, prijsstrategie, interne notities).
 HANDOFF.md
+
+# GTM container-exports — bevatten de volledige tagconfiguratie en zouden
+# op ppf.rslr.be/<bestandsnaam> leesbaar zijn. Nooit publiceren.
+gtm-*.json
+GTM*.json
