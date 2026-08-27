@@ -26,7 +26,6 @@ cta.phone: Bel ons
 cta.dock.phone: Bellen
 
 # ── HERO ─────────────────────────────────────────────────────
-hero.eyebrow: Paint Protection Film <b>·</b> XPEL-gecertificeerd <b>·</b> Sint-Niklaas
 hero.h1: Paint protection film<br>voor exclusieve wagens
 hero.lead: Naadloos geplaatst in onze eigen stofvrije cabine. Wij halen uw wagen op en brengen hem terug.
 hero.badge: Prijs en datum <b>binnen één werkdag</b>
@@ -34,11 +33,11 @@ hero.img.alt: Naadloos geplaatste paint protection film op een exclusieve wagen 
 
 trust.1.title: Naden onzichtbaar
 trust.1.sub: Randen omgeslagen, geen aanzet
-trust.2.title: Wij halen op
+trust.2.title: Wij halen uw wagen op
 trust.2.sub: Gesloten transport, heen en terug
-trust.3.title: XPEL-gecertificeerd
-trust.3.sub: Erkende plaatsing
-trust.4.title: Zestig jaar carrosserie
+trust.3.title: Getrainde specialisten
+trust.3.sub: PPF geplaatst door ons eigen team
+trust.4.title: 60 jaar carrosserie-ervaring
 trust.4.sub: Lak en herstel in eigen huis
 
 # ── 01 · PRIJZEN ─────────────────────────────────────────────
@@ -163,8 +162,8 @@ faq.8.a: Omdat er iets anders in zit: vakuren, materiaal en de voorbereiding die
 
 # ── 06 · AANVRAAG ────────────────────────────────────────────
 form.idx: [ 06 ] Aanvraag
-form.h2: Uw prijs op maat<br>en een datum
-form.lead: Vier velden. Binnen één werkdag krijgt u de zones, de folie, de doorlooptijd, de prijs en een plek in de agenda. Vrijblijvend.
+form.h2: Vul het<br>formulier in
+form.lead: Wij contacteren u zo spoedig mogelijk.
 form.location: Sint-Niklaas · uitsluitend op afspraak · ophaling mogelijk
 
 form.car.label: Merk en model
