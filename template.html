@@ -547,6 +547,7 @@ footer.ft{border-top:1px solid var(--line);padding-block:40px 110px}
             <div class="field" style="margin-bottom:22px;">
               <label for="phone">{{form.phone.label}}</label>
               <input id="phone" name="phone" type="tel" placeholder="{{form.phone.placeholder}}" autocomplete="tel" inputmode="tel">
+              <p class="err" data-for="phone">{{form.phone.error}}</p>
             </div>
             <div aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden">
               <label for="website">Website</label>
@@ -689,6 +690,7 @@ footer.ft{border-top:1px solid var(--line);padding-block:40px 110px}
     if(!p){ if(pm) pm.classList.add('on'); ok=false; } else if(pm) pm.classList.remove('on');
     if(form.name.value.trim().length<2){ mark('name',true); ok=false; first=first||form.name; } else mark('name',false);
     if(!/^[^\s@]+@[^\s@]+\.[a-z]{2,}$/i.test(form.email.value.trim())){ mark('email',true); ok=false; first=first||form.email; } else mark('email',false);
+    if(form.phone.value.replace(/\D/g,'').length<9){ mark('phone',true); ok=false; first=first||form.phone; } else mark('phone',false);
     if(first) first.focus();
     return ok;
   }

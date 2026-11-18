@@ -180,8 +180,9 @@ form.name.error: Graag uw naam.
 form.email.label: E-mailadres
 form.email.placeholder: naam@domein.be
 form.email.error: Dit e-mailadres lijkt niet volledig.
-form.phone.label: Telefoon <em>(optioneel, dan bellen we u)</em>
+form.phone.label: Gsm-nummer
 form.phone.placeholder: +32 4.. .. .. ..
+form.phone.error: Graag uw gsm-nummer, dan bellen wij u voor de details.
 form.submit: Vraag uw prijs op maat
 form.privacy: Uw gegevens gebruiken wij enkel voor deze aanvraag.
 
